@@ -3,5 +3,9 @@
 version = 3
 
 [[package]]
-name = "sagitario-language"
+name = "debugger"
+version = "0.1.0"
+
+[[package]]
+name = "lexer"
 version = "0.1.0"

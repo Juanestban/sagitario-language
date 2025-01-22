@@ -1,0 +1,11 @@
+[package]
+name = "debugger"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["juanestbandev"]
+
+[dependencies]
+
+[lib]
+path = "src/lib.rs"
