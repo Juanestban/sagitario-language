@@ -1,7 +1,9 @@
-[package]
-name = "sagitario-language"
+[workspace]
+members = ["core/lexer", "core/debugger", "sagitario"]
+
+[workspace.package]
 version = "0.1.0"
 edition = "2021"
-authors = ["Juanestbandev"]
-
-[dependencies]
+readme = "README.md"
+authors = ["juanestbandev"]
+build = "build.rs"
