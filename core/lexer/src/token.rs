@@ -1,1 +1,77 @@
-fn token() {}
+#[allow(non_camel_case_types)]
+pub enum Token {
+  // operations
+  ADD,
+  SUBSTRACT,
+  MULTIPLY,
+  DIVIDE,
+  MODULO,
+
+  // arithmetic
+  EQUAL,
+  EQUAL_EQUAL,
+  NOT_EQUAL,
+  GREATER,
+  GREATER_EQUAL,
+  LESS,
+  LESS_EQUAL,
+
+  // comparison
+
+  // logical
+
+  // assignment
+  CONST,
+  VAR,
+  NULL,
+  CLASS,
+  THIS,
+  SUPER,
+  NEW,
+  IDENTIFIER(String),
+  INTEGER(i64),
+  FLOAT(f64),
+  STRING(String),
+  COMMENT(String),
+  BOOL(bool),
+  VOID,
+  FUNCTION,
+  RETURN,
+  NOT,
+  AND,
+  OR,
+  TRUE,
+  FALSE,
+  IF,
+  ELSE,
+  EL_IF,
+  WHILE,
+  FOR,
+  BREAK,
+  CONTINUE,
+  IMPORT,
+  AS,
+  TRY,
+  CATCH,
+  FINALLY,
+  THROW,
+  ERROR,
+  WHITESPACE,
+  LEFT_PAREN,
+  RIGHT_PAREN,
+  LEFT_BRACE,
+  RIGHT_BRACE,
+  LEFT_BRACKET,
+  RIGHT_BRACKET,
+  COMMA,
+  DOT,
+  SEMICOLON,
+  COLON,
+  ARROW,
+  GENERIC_TYPE,
+  UNKNOWN,
+  ANY,
+  INTERACE,
+
+  EOF,
+}
