@@ -1,0 +1,6 @@
+var language = 'sagitario-language';
+
+fn main(args: string[]) {
+  print(language);
+  print(args)
+}

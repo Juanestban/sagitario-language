@@ -1,0 +1,31 @@
+fn hello_world() {
+  print('Hello, world!');
+}
+
+fn noop(): void {
+  print('noop');
+}
+
+fn template_fn<Template = int>(value: Template) {
+  print('template_fn:', value);
+}
+
+fn template_extends_fn<Template extends int>(value: Template) {
+  print('template_extends_fn:', value)
+}
+
+fn spread_operator_fn_args(...args: (unknow | any)[]) -> void {
+  print(args);  // ['first args', '-s="second"', '--table=1', 'filename.txt']
+}
+
+const arrow = (): void => {
+  print('void!');
+}
+
+const template_arrow = <T>(values: T): T => {
+  return values;
+}
+
+const spread_operation_arrow_args = (...args: (unknow | any)[]): void => {
+  print(args);  // ['first args', '-s="second"', '--table=1', 'filename.txt']
+}
