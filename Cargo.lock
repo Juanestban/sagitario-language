@@ -3,9 +3,17 @@
 version = 3
 
 [[package]]
-name = "debugger"
+name = "sagitario"
+version = "0.1.0"
+dependencies = [
+ "sagitario-debugger",
+ "sagitario-lexer",
+]
+
+[[package]]
+name = "sagitario-debugger"
 version = "0.1.0"
 
 [[package]]
-name = "lexer"
+name = "sagitario-lexer"
 version = "0.1.0"

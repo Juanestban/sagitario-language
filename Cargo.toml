@@ -1,5 +1,5 @@
 [workspace]
-members = ["core/lexer", "core/debugger"]
+members = ["core/lexer", "core/debugger", "sagitario"]
 
 [workspace.package]
 version = "0.1.0"

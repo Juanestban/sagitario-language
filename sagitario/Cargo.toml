@@ -1,0 +1,9 @@
+[package]
+name = "sagitario"
+version = "0.1.0"
+edition = "2021"
+authors = ["juanestbandev"]
+
+[dependencies]
+sagitario-lexer = { path = "../core/lexer" }
+sagitario-debugger = { path = "../core/debugger" }
